@@ -3,6 +3,12 @@
 All notable changes to this package are documented here. Releases are managed
 from conventional commits by the repository release workflow.
 
+## 1.0.0 (2026-07-27)
+
+### ✨ Features ✨
+
+- **diene_config:** seed public mirror from accepted source 41ceb3d60633768716469976c115bd9f3cc99834 ([4b5aee3](https://github.com/AtomiCloud/diene.dart_config/commit/4b5aee3cb4a93b32bb2512083caf7dd687b8328a))
+
 ## 1.0.0
 
 - Add the layered loader: full base YAML → sparse flavor/landscape overlay →
