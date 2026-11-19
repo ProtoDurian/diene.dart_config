@@ -21,7 +21,7 @@ jobs:
       - nscloud-cache-size-50gb
       - nscloud-cache-tag-atomi-nix-store-cache-linux-amd64
     steps:
-      - uses: AtomiCloud/actions.setup-nix@v3
+      - uses: AtomiCloud/actions.setup-nix@v4
       # No meta skip condition: diene_config ships a TestHelper, so its meta tier
       # is mandatory. The inherited `hashFiles(... test_helper.dart) != ''` guard
       # meant that deleting the helper silently converted the meta job into a
